@@ -101,7 +101,7 @@ Visualizations and anomaly detection results will be saved in the `results/` fol
 
 ## **📊 Sample Visualization**
 
-![Anomaly Scatter Plot](results/anomaly_plot.png)
+![Anomaly Scatter Plot](outputs/Anamolydetction.png)
 
 In the plot above, **red triangles** represent anomalies 🟥, while **blue dots** indicate normal transactions 🔵. 
 

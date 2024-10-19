@@ -1,0 +1,26 @@
+# Ignore all CSV and dataset files
+*.csv
+*.tsv
+*.data
+*.data
+
+# Ignore large files (over a certain size)
+*.zip
+*.tar.gz
+*.rar
+
+# Ignore specific folders (replace 'datasets' with your actual folder name if needed)
+datasets/
+large_files/
+
+# Ignore temporary files
+*.log
+*.tmp
+*.bak
+
+# Ignore system files (optional, for various OS-specific files)
+.DS_Store
+Thumbs.db
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/

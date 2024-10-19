@@ -101,10 +101,6 @@ Visualizations and anomaly detection results will be saved in the `results/` fol
 
 ## **📊 Sample Visualization**
 
-![Anomaly Scatter Plot](outputs/Anamolydetction.png)
-
-In the plot above, **red triangles** represent anomalies 🟥, while **blue dots** indicate normal transactions 🔵. 
-
 ---
 
 ## **🛠️ Key Models**
@@ -142,11 +138,6 @@ A huge thanks to all the open-source libraries, frameworks, and community member
 
 ---
 
-### 🌟 **Connect with Me**:
-
-- LinkedIn: [Your LinkedIn](Here's a cool and attractive README for your **Efficient Data Stream Anomaly Detection** project with emojis for a more engaging look:
-
----
 
 # 🚀 **Efficient Data Stream Anomaly Detection** 🔍💡
 

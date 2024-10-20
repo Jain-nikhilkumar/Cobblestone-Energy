@@ -11,16 +11,11 @@ def generate_large_synthetic_data(num_points=100000, anomaly_probability=0.01, n
             data_stream[i] += np.random.normal(5, 2)
     return time, data_stream
 
-# Parameters for the dataset
-num_points = 100000
-anomaly_probability = 0.02
-noise_level = 0.2
-
-# Generate synthetic data
-time, data_stream = generate_large_synthetic_data(num_points=num_points, anomaly_probability=anomaly_probability, noise_level=noise_level)
-
-# Save data to a CSV file
-data_df = pd.DataFrame({'Time': time, 'Value': data_stream})
-data_df.to_csv('large_synthetic_data_stream.csv', index=False)
-
-print(f"Synthetic data with {num_points} points has been saved to 'large_synthetic_data_stream.csv'.")
+# Function to save the data to a CSV file
+def save_data_to_csv(time, data_stream, filename='large_synthetic_data_stream.csv'):
+    # Create a DataFrame
+    data_df = pd.DataFrame({'Time': time, 'Value': data_stream})
+    
+    # Save the DataFrame to a CSV file
+    data_df.to_csv(filename, index=False)
+    print(f"Synthetic data with {len(data_stream)} points has been saved to '{filename}'.")
